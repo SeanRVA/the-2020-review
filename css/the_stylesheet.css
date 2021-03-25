@@ -1,0 +1,220 @@
+:root {
+  --backgroundColour: ;
+  --borderColour: ;
+  --midgroundColour: ;
+  --midgroundColourAlt: ;
+  --foregroundColor: ;
+  --foregroundColorAlt: ;
+  --foregroundColorAlt2: ;
+  --fontColour: ;
+  --fontColourAlt: ;
+  --fontColourAlt2: ;
+  --fontColourAlt3: ;
+  --lang: 'Inconsolata', monospace, 'Monaco', 'Consolas', 'Courier New', 'Courier';
+}
+
+a {
+  text-decoration: none;
+  color: var(--fontColour);
+  font-family: var(--lang);
+}
+
+body {
+  background-color: var(--backgroundColour);
+  font-family: var(--lang);
+  text-align: center;
+  z-index: 0;
+}
+
+.header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 20%;
+  max-height: 20%;
+  position: absolute;
+}
+
+.title_bg {
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90%;
+  background-color: var(--midgroundColour);
+  color: var(--fontColour);
+  text-align: center;
+  display: block;
+  position: absolute;
+  z-index: 7;
+}
+
+.title_bg_alt {
+  background-color: var(--backgroundColour);
+}
+
+#title {
+  font-family: var(--lang);
+  z-index: 8;
+}
+
+.navbar {
+  width: 100%;
+  top: 85%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 20%;
+  background-color: var(--midgroundColour);
+  border-bottom: 2px solid var(--borderColour);
+  position: -webkit-sticky;
+  position: sticky;
+  display: block;
+  text-align: center;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
+  z-index: 6;
+}
+
+.navbar:hover {
+  -webkit-transform: translateY(60%);
+  -moz-transform: translateY(60%);
+  -o-transform: translateY(60%);
+  transform: translateY(60%);
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
+}
+
+.navbar a {
+  margin: 10px;
+  padding: 10px;
+  display: inline;
+  color: var(--fontColourAlt3);
+}
+
+#selected {
+  text-decoration: underline;
+  background-color: var(--midgroundColourAlt);
+  color: var(--fontColourAlt3);
+}
+
+.content {
+  margin: auto;
+  display: block;
+  border: 2px solid var(--borderColour);
+  position: relative;
+  max-width: 80%;
+  height: 100%;
+  background-color: var(--midgroundColour);
+  color: var(--fontColour);
+  padding: 10px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.align_center {
+  text-align: center;
+}
+
+.align_left {
+  text-align: left;
+}
+
+.sub_content {
+  padding: 5px;
+  background-color: var(--foregroundColor);
+  color: inherit;
+  z-index: 2;
+  text-align: inherit;
+}
+
+.sub_sub_content {
+  padding: 5px;
+  background-color: var(--foregroundColorAlt);
+  color: inherit;
+  z-index: 3;
+  text-align: inherit;
+}
+
+.content a {
+  color: var(--fontColour);
+}
+
+#link:hover, .link:hover, #link1:hover, .link1:hover, #link2:hover, .link2:hover{
+  text-decoration: underline;
+}
+
+.footer {
+  position: relative;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 5%;
+  border-top: 2px solid var(--borderColour);
+  background-color: var(--midgroundColour);
+  text-align: right;
+  z-index: 4;
+}
+
+.footbar {
+  vertical-align: middle;
+  z-index: 5;
+}
+
+.footbar a {
+  color: var(--fontColour);
+  margin: 10px;
+}
+
+#album_cov {
+  width: 15%;
+}
+
+#album_cov:hover {
+  width: 30%;
+}
+
+.select {
+  background: none;
+  border: none;
+  color: var(--fontColour);
+  font-family: var(--lang);
+}
+
+.input {
+  background: none;
+  border: none;
+  color: var(--fontColour);
+  font-family: var(--lang);
+  width: 100%;
+}
+
+.input::placeholder {
+  color: var(--fontColourAlt);
+  font-family: var(--lang);
+}
+
+@font-face {
+    font-family: 'DragrodNormal';
+    src: url('fonts/dragrod-normal/dragrod-normal-webfont.woff2') format('woff2'),
+         url('fonts/dragrod-normal/dragrod-normal-webfont.woff') format('woff'),
+		 url('fonts/dragrod-normal/dragrod-normal-webfont.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
