@@ -6,3 +6,6 @@ Though this is an individual project, I would appreciate anyone who would submit
 
 # Credits
 Author, Programmer, Artist: SeanRVA
+
+### Note to my Teacher
+The registration form feature starts when you press the "Disable Account" button on the settings html.
