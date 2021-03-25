@@ -1,0 +1,301 @@
+/*
+  I originally intended to add a togglable light and dark mode,
+  but it didn't workout. I'm keeping this( :root{} ) here just because it'd
+  be a waste to remove it.
+*/
+:root {
+  --backgroundColour:  #292a2d;
+  --midgroundColour: #21252b;
+  --foregroundColour: #282c34;
+  --highlightColour: #2c313c;
+  --highlightColour1: #363c49;
+  --highlightColour2: #414856;
+  --fontColour: #a1a8b5;
+  --transparentFontColour: #a1a8b51a;
+  --borderColour: #181a1f;
+  --footerColour: #21252b;
+  --lang: 'Inconsolata', monospace, 'Monaco', 'Consolas', 'Courier New', 'Courier';
+}
+/* End of :root */
+
+.background {
+  background-color: var(--midgroundColour);
+}
+
+body {
+  font-family: var(--lang);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* title */
+
+.title_bg {
+  min-height: 70px;
+	background-color: var(--backgroundColour);
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 2000;
+	text-align: center;
+  border-bottom: 2px solid var(--backgroundColour);
+}
+
+.title {
+  font-family: 'Bauhaus 93';
+  color: var(--fontColour);
+}
+
+/* navigation bar */
+
+.navbar {
+  min-height: 30px;
+	-webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+  transform: translateY(-20px);
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
+  transition: transform 0.5s ease;
+	background-color: var(--highlightColour);
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1020;
+	margin-top: 72px;
+  padding-bottom: 2px;
+	color: var(--fontColour);
+	border-bottom: 2px solid var(--borderColour);
+	text-align: center;
+	font-weight: bold;
+}
+
+.navbar a {
+  float: left;
+  padding-right: 10px;
+  text-align: center;
+  color: var(--fontColour);
+}
+
+.navbar:hover {
+	-webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+.nav1 {
+	padding-left: 30px;
+	float: left;
+}
+
+#sel {
+	text-decoration: underline;
+}
+
+/* contents */
+
+.content {
+  padding-top: 100px;
+	margin-left: 100px;
+	margin-right: 100px;
+	background-color: var(--foregroundColour);
+	color: var(--fontColour);
+	position: relative;
+	padding-left: 20px;
+	padding-right: 10px;
+	border-left: 2px solid var(--borderColour);
+	border-right: 2px solid var(--borderColour);
+	bottom: 0px;
+}
+
+.content #p {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: var(--fontColour);
+	background-color: var(--highlightColour);
+}
+
+.content #cont {
+	text-align: justify;
+}
+
+.content #link {
+	padding-bottom: 50px;
+}
+
+.content #contbox {
+	background-color: var(--highlightColour);
+	padding: 10px;
+}
+
+.content #inbox1 {
+	padding: 10px;
+	background-color: var(--highlightColour1);
+	margin: 10px;
+}
+
+.content #inbox2 {
+	padding: 10px;
+	background-color: var(--highlightColour2);
+	margin: 10px;
+}
+
+#con1, #con2, #con3 {
+	color: var(--fontColour);
+}
+
+#con1:hover{
+	text-decoration: underline;
+}
+
+#con2:hover{
+	text-decoration: underline;
+}
+
+#con3:hover{
+	text-decoration: underline;
+}
+
+#link p {
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: var(--highlightColour);
+	color: var(--fontColour);
+}
+
+.detail {
+	padding-bottom: -10px;
+	padding-top: 10px;
+	bottom: 0;
+}
+
+#jojo_end {
+	color: var(--transparentFontColour);
+}
+
+/* footer */
+
+.footer {
+	text-align: right;
+	word-spacing: 20px;
+	min-height: 30px;
+	background-color: var(--footerColour);
+	position: relative;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 1000;
+	border: 2px solid var(--borderColour);
+	margin: 0;
+	padding: 5px;
+}
+
+.footer a {
+	color: var(--fontColour);
+}
+
+/* additional */
+
+#contacts_sprite {
+  width: 24px;
+  height: 24px;
+  background: url(../images/sprites.png) 0 0;
+}
+
+#sponsor_sprite {
+  width: 24px;
+  height: 24px;
+  background: url(../images/sprites.png) -48px 0;
+}
+
+#settings_sprite {
+  width: 24px;
+  height: 24px;
+  background: url(../images/sprites.png) -96px 0;
+}
+
+#signature {
+  font-size: 12px;
+}
+
+.sprite_mini {
+	width: 24px;
+}
+
+.sprite {
+	width: 72px;
+}
+
+.unlisted_list_decoration_false {
+	list-style: none;
+}
+
+/* Error Page */
+
+.background1 {
+  text-align: center;
+}
+
+.very_obvious_button {
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: rgba(255, 255, 255, 0.75);
+  position: relative;
+  height: 100%;
+  font-size: 400%;
+  padding-left: 20px;
+  padding-right: 10px;
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+}
+
+.very_obvious_button:hover {
+  	color: rgba(0,0,0,0.25);
+}
+
+#bedrock {
+  padding-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: rgba(255, 255, 255, 0.75);
+  position: relative;
+  height: 100%;
+  padding-left: 20px;
+  padding-right: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+#very_obvious_button {
+  margin-left: 300px;
+	margin-right: 300px;
+	background-color: rgba(255, 255, 255, 0.75);
+	position: relative;
+	height: 100%;
+	font-size: 400%;
+	padding-left: 20px;
+	padding-right: 10px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+/* custom fonts [Unused :( ]*/
+
+@font-face {
+    font-family: 'DragrodNormal';
+    src: url('fonts/dragrod-normal/dragrod-normal-webfont.woff2') format('woff2'),
+         url('fonts/dragrod-normal/dragrod-normal-webfont.woff') format('woff'),
+		 url('fonts/dragrod-normal/dragrod-normal-webfont.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
