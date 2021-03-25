@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign Up</title>
+    <link rel="icon" href="../images/kyruleum_machinery.png">
+    <link rel="stylesheet" href="../css/the_stylesheet.css">
+  </head>
+  <body onload="multipleFunctions()">
+    <div class="header">
+      <div class="title_bg">
+      </div>
+    </div>
+    <div class="content" id="content">
+      <h1>Sign Up</h1>
+      <div class="sub_content">
+        <label for="username_login">Username:</label>
+        <div class="sub_sub_content">
+          <input type="text" name="username_signup" id="username_signup" value="" class="input">
+        </div>
+        <br>
+        <label for="username_login">Email:</label>
+        <div class="sub_sub_content">
+          <input type="text" name="email_signup" id="email_signup" value="" class="input">
+        </div>
+        <br>
+        <label for="password_login">Password:</label>
+        <div class="sub_sub_content">
+          <input type="password" name="password_signup" id="password_signup" value="" class="input">
+        </div>
+        <label for="show_password">Show Password?</label>
+        <input type="checkbox" name="show_password" value="Show Password" id="show_password" onchange="showPassword()">
+        <br>
+        <br>
+        <a href="login.html" id="link">Already have an account?</a>
+        <br>
+        <button type="button" class="select" id="link" onclick="signup()">
+          <h1>
+            Submit
+          </h1>
+        </button>
+      </div>
+    </div>
+    <script src="../js/javascript.js" charset="utf-8"></script>
+    <script src="../js/signup.js" charset="utf-8"></script>
+  </body>
+</html>
