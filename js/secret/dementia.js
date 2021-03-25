@@ -10,7 +10,7 @@ function dementia(x) {
       document.getElementById('album_title').innerHTML = "Everywhere at The End of Time - The Caretaker";
       document.getElementById('album_cov').src = "../images/secret/everywhere_at_the_end_of_time.png";
       document.getElementById('album_cov').alt = "The Caretaker - Everywhere at The End of Time Album Cover";
-      document.getElementById('album_src').setAttribute("src", "../mmfiles/secret/dementia.ogg");
+      document.getElementById('album_src').setAttribute("src", "../mmfiles/secret/dementia.mp3");
 
       document.getElementsByTagName('BODY')[0].style.backgroundImage = staticImage;
       document.getElementById('content').style.opacity = "0.6";
