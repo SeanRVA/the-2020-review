@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Settings</title>
+    <link rel="icon" href="../images/kyruleum_machinery.png">
+    <link rel="stylesheet" href="../css/the_stylesheet.css">
+  </head>
+  <body onload="checkIfSignedUp(1);checkIfLoggedIn(1);multipleFunctions();">
+    <div class="header">
+      <div class="title_bg">
+        <h1 id="title">2020</h1>
+      </div>
+      <div class="navbar">
+        <a href="../index.html" id="link">Home</a>
+        <a href="disasters.html" id="link">Disasters</a>
+        <a href="miracles.html" id="link">Miracles</a>
+        <a href="review.html" id="link">Review</a>
+        <a href="contacts.html" id="link">Contacts</a>
+      </div>
+    </div>
+    <div class="content" id="content">
+      <div class="sub_content">
+        <h1>Display Settings</h1>
+        <div class="sub_sub_content">
+          <label for="theme">Theme:</label>
+          <select class="select" name="theme" id="theme_settings" onchange="themeSettings()">
+            <option value="oneDark">One Dark</option>
+            <option value="oneLight">One Light</option>
+          </select>
+        </div>
+        <br>
+        <div class="sub_sub_content">
+          <label for="lang">Language:</label>
+          <select class="select" name="lang" id="lang_settings" onchange="langSettings()">
+            <option value="en-uk" style="font-family:'Inconsolata', monospace, 'Monaco', 'Consolas', 'Courier New', 'Courier'">English - United Kingdom</option>
+            <option value="dr-dg" style="font-family:'DragrodNormal'">Dragrodian - Dragrod</option>
+          </select>
+        </div>
+      </div>
+      <br>
+      <div class="sub_content">
+        <h1>Account Settings</h1>
+        <div class="sub_sub_content">
+          <input type="button" class="select" id="link" value="Log Out" onclick="logout(1)">
+        </div>
+        <br>
+        <div class="sub_sub_content">
+          <input type="button" class="select" id="link" value="Disable Account" onclick="disable(1)">
+        </div>
+      </div>
+    </div>
+    <script src="../js/javascript.js" charset="utf-8"></script>
+    <script src="../js/signup.js" charset="utf-8"></script>
+    <script src="../js/login.js" charset="utf-8"></script>
+  </body>
+</html>
