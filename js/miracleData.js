@@ -1,0 +1,12 @@
+document.getElementById('jan').innerHTML = "";
+document.getElementById('feb').innerHTML = "";
+document.getElementById('mar').innerHTML = "Missed going outside? Nintendo has blessed us with its ever successful Animal Crossing: New Horizons. A video game where you get to buy a small island, and shape it the way your imagination decides. However, are you getting bored with too much peace, and you just want to go full on ape****? Bethesda released their ever amazing Doom Eternal in the same date. It is a sequel to game (Doom 2016) where you brutally murder demons. March was such a praised month in the video game community.";
+document.getElementById('apr').innerHTML = "While in this depressing quarantine, people realised that now with less responsibilities due to being stuck in their homes, they can develop amazing hobbies and things about themselves that didn't know about. Some developed art skills, some developed cooking skills, and some even found peace in their lives.";
+document.getElementById('may').innerHTML = "Launching in 3. 2. 1. SpaceX launches a rocket designed and built by Tesla owner Elon Musk for the first time in decades.	Americans were so happy and excited when this happened.";
+document.getElementById('jun').innerHTML = "";
+document.getElementById('jul').innerHTML = "";
+document.getElementById('aug').innerHTML = "";
+document.getElementById('sep').innerHTML = "Want to make and ruin friendships through the devious act of deceit? Then play Among Us. A video game where you play as bean-shaped scientist called 'Crewmates' doing science tasks. However, as you complete your tasks, one of the players is playing as an 'Imposter' who tries to kill all the crewmates. Finish all your tasks or loud and yell in a debate through voice chat with the other players to find the imposter in order to win the game.";
+document.getElementById('oct').innerHTML = "The one thing Minecrafters have been waiting for has finally been announced to be in production. That 'thing' is, of course, the Minecraft Cave Update. Every Minecrafter was so happy when it was announced.";
+document.getElementById('nov').innerHTML = "";
+document.getElementById('dec').innerHTML = "Amazing news! The UK has successfully created a vaccine for CoViD-19 and are planning on releasing the vaccine internationally after a few more tests.";
