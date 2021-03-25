@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Log In</title>
+    <link rel="icon" href="../images/kyruleum_machinery.png">
+    <link rel="stylesheet" href="../css/the_stylesheet.css">
+  </head>
+  <body onload="multipleFunctions();fromSignUpPage();">
+    <div class="header">
+      <div class="title_bg">
+      </div>
+    </div>
+    <div class="content" id="content">
+      <h1>Log In</h1>
+      <div class="sub_content">
+        <label for="username_login">Username or Email</label>
+        <div class="sub_sub_content">
+          <input type="text" name="username_login" id="username_login" value="" class="input">
+        </div>
+        <br>
+        <label for="password_login">Password</label>
+        <div class="sub_sub_content">
+          <input type="password" name="password_login" id="password_login" value="" class="input">
+        </div>
+        <br>
+        <a href="signup.html" id="link">Don't have an account?</a>
+        <br>
+        <button type="button" class="select" id="link" onclick="login()">
+          <h1>
+            Submit
+          </h1>
+        </button>
+      </div>
+    </div>
+    <script src="../js/javascript.js" charset="utf-8"></script>
+    <script src="../js/login.js" charset="utf-8"></script>
+  </body>
+</html>
