@@ -1,60 +1,60 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en" dir="ltr">
   <head>
-    <title>Author's Review</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/stylesheet.css">
-    <link rel="icon" href="../images/kyruleum_machinery.png" id="icon">
+    <meta charset="utf-8">
+    <title>2020: Review</title>
+    <link rel="icon" href="../images/kyruleum_machinery.png">
+    <link rel="stylesheet" href="../css/the_stylesheet.css">
   </head>
-  <body class=background>
-    <div class="title_bg">
-			<h1 class="title">
-				2020
-			</h1>
-		</div>
-		<div class="navbar">
-			<ul class="unlisted_list_decoration_false">
-				<li class="nav1">
-				<a href="../index.html" title="Home Page">HOME</a>
-				<a href="disasters.html" title="2020 Disasters">Disasters</a>
-				<a href="miracles.html" title="2020 Miracles">Miracles</a>
-				<a href="review.html" title="2020 Review" id="sel">Review</a>
-				<a href="contacts.html" title="Contacts">Contacts</a>
-				</li>
-			</ul>
-		</div>
-    <div class="content">
-			<div id="cont">
-				<h1>Author's Review</h1>
-				<div id="p">
+  <body onload="checkIfSignedUp(1);checkIfLoggedIn(1);multipleFunctions(3);dementia(3);">
+    <div class="header">
+      <div class="title_bg">
+        <h1 id="title">2020: Review</h1>
+      </div>
+      <div class="navbar">
+        <a href="../index.html" id="link">Home</a>
+        <a href="disasters.html" id="link">Disasters</a>
+        <a href="miracles.html" id="link">Miracles</a>
+        <a href="review.html" id="selected">Review</a>
+        <a href="contacts.html" id="link">Contacts</a>
+      </div>
+    </div>
+    <div class="content align_left" id="content">
+      <div class="sub_content">
+        <h1>2020: Review</h1>
+        <div class="sub_sub_content" id="rev_desc"></div>
+      </div>
+      <br>
+      <div class="sub_content">
+        <div class="sub_sub_content" id="dis_desc">
           <p>2020 Has been an absolute CRAP of a year. I'm pretty sure everyone can agree that they planned on doing something fun this year, not expecting the absolute disaster of events that is 2020. In a biased stand point, I sort of enjoyed 2020. More specifically the quarantine. I get to stay indoors and avoid contact from other people, it's literally heaven for us introverts, but other than that, everything has been CRAP, and I'm saying that on the behalf on every human on Earth.</p>
           <p>However, despite all of theses calamities, we also got to experience some good news. Family bonds increasing due to lockdown, the gaming industry skyrocketing off the charts, pollution decreasing, silver linings on the gray cloud that is 2020. As humans, we must not give up our hopes and must stay optimistic. In case 2021 turns out to be an excapt copy of 2020, at least we can prepare and know what might come.</p>
           <p>I know that 2020 has been bad for you and me, but we can work together and try to bring the upcoming days back to normal. Stay inside, stick to the rules, get vaccinated, and stay healthy. If 2020 is a bear mauling us near to death, let's use our hopes as a spear to fight back. Let's make 2021+ a better year.</p>
           <p id="signature">- Your's truly, Sean Aldojesa 2021</p>
-				</div>
-        <br>
-        <div>
-          <p>There was a lot of empty space here, so why not listen to my favourite Lo-Fi song.</p>
-          <p>Ji-Eun's Sunset - City Girl</p>
-          <audio controls autoplay preload="auto">
-            <source src="../mmfiles/ji_eun's_sunset_by_city_girl.ogg" type="audio/ogg">
-            <source src="../mmfiles/ji_eun's_sunset_by_city_girl.mp3" type="audio/mpeg">
+        </div>
+      </div>
+      <br>
+      <div class="sub_content">
+        <div class="sub_sub_content align_center">
+          <p id="album_desc"></p>
+          <p id="album_title"></p>
+          <label for="fav_lofi"><img src="" alt="" id="album_cov"></label>
+          <audio controls autoplay preload="auto" name="fav_lofi" id="album_src">
+            <source src="" type="audio/mpeg">
             Your browser does not support the audio tag.
           </audio>
         </div>
-			</div>
-		</div>
+      </div>
+    </div>
     <div class="footer">
-			<a href="htdocs/contacts.html" title="Contacts">
-				<img src="../images/sprites_blank.png" alt="Contacts" class="sprite_mini" id="contacts_sprite">
-			</a>
-			<a href="https://www.youtube.com/watch?v=ub82Xb1C8os" title="Kyruleum Machinery Official YouTube">
-				<img src="../images/sprites_blank.png" alt="Kyruleum Machinery" class="sprite_mini" id="sponsor_sprite">
-			</a>
-			<a href="htdocs/oops.html" title="Settings">
-				<img src="../images/sprites_blank.png" alt="Settings" class="sprite_mini" id="settings_sprite">
-			</a>
-		</div>
+      <div class="footbar">
+        <a href="contacts.html" id="link">CONTACTS</a>
+        <a href="settings.html" id="link">SETTINGS</a>
+      </div>
+    </div>
+    <script src="../js/javascript.js" charset="utf-8"></script>
+    <script src="../js/secret/dementia.js" charset="utf-8"></script>
+    <script src="../js/signup.js" charset="utf-8"></script>
+    <script src="../js/login.js" charset="utf-8"></script>
   </body>
 </html>
